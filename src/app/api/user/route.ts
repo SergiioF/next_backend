@@ -2,7 +2,7 @@ import { NextResponse } from "next/server";
 
 export function GET() {
     const rest= {
-        "user": "Sergio"
+        "user": "Moonshot"
     }
 
     return NextResponse.json(rest)
